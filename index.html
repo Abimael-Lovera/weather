@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Clima</title>
+		<!-- Font IBM Plex Mono -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+		<!-- Custom Css -->
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<!-- Custom JavaScript -->
+		<script src="main.js" type="text/javascript" defer></script>
+	</head>
+	<body onload="onload();">
+		<div id="container">
+			<div class="col1">
+				<div id="location"></div>
+				<div id="description"></div>
+				<div id="date"></div>
+			</div>
+			<div class="col">
+				<div id="pressure"></div>
+
+				<div id="temperature"></div>
+				<div id="humidity"></div>
+			</div>
+		</div>
+		<div class="loader" id="loader">Loading...</div>
+	</body>
+</html>
